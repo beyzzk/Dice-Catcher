@@ -1,8 +1,8 @@
 # Dice-Catcher
 Dice catcher HTML5, Javascript ve Canvas kullanılarak geliştirilmiş, fareyle kontrol edilerek oynanan bir oyundur.Düşen zarları(oyun içerisindeki ekrana farklı görsellerle gelicek olan çeşitli kutular) yakalayarak en doğru hamleyi yap.
 
-![Oyun Başlangıcı](img/oyunekranı1.png)
-![Oyun Oynanışı](images/oyunekranı2.png)
+![Oyun Başlangıcı](img/oyunekrani1.png)
+![Oyun Oynanışı](images/oyunekrani2.png)
 
 # Nasıl Oynanır
 (img/nasıloynanır.png)
@@ -20,5 +20,5 @@ Ve karşı saldırı olarak mouse ile kesikli çizgi içerisine denk gelmesi şa
  [İlham alınan oyuna buradan ulaşabilirsiniz](https://kultisti.itch.io/dice-catcher) 
 
  # Kullanılan assetler
- -Arka plan müziği: https://www.youtube.com/watch?v=X34igEEtrac
- -Ses efekti: epidemicsound.com
+ -Arka plan müziği: https://www.youtube.com/watch?v=X34igEEtrac  
+ -Ses efekti edindiğim site : epidemicsound.com
