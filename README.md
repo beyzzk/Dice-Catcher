@@ -1,7 +1,8 @@
 # Dice-Catcher
 Dice catcher HTML5, Javascript ve Canvas kullanılarak geliştirilmiş, fareyle kontrol edilerek oynanan bir oyundur.Düşen zarları(oyun içerisindeki ekrana farklı görsellerle gelicek olan çeşitli kutular) yakalayarak en doğru hamleyi yap.  
-Oyun başlangıç ekranı
+Oyun başlangıç ekranı  
 ![Oyun Başlangıcı](img/oyunekrani1.png)  
+------------------------------------------------------------------------------------------------------------------------
 ![Oyun Oynanışı](img/oyunekrani2.png)
 
 # Nasıl Oynanır?
