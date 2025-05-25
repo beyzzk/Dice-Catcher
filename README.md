@@ -2,10 +2,10 @@
 Dice catcher HTML5, Javascript ve Canvas kullanılarak geliştirilmiş, fareyle kontrol edilerek oynanan bir oyundur.Düşen zarları(oyun içerisindeki ekrana farklı görsellerle gelicek olan çeşitli kutular) yakalayarak en doğru hamleyi yap.
 
 ![Oyun Başlangıcı](img/oyunekrani1.png)
-![Oyun Oynanışı](images/oyunekrani2.png)
+![Oyun Oynanışı](img/oyunekrani2.png)
 
 # Nasıl Oynanır
-(img/nasıloynanır.png)
+![Nasıl Oynanır](img/nasiloynanir.png)
 Oyun ekranında da gösterildigi gibi basitçe oyun kuralları şöyledir
 Amacımız karşımızdaki düşman bizi öldürmeden onu öldürmek.
 Bunun için her round başı düşmanın yapacağı saldırı miktarını görüyoruz( düşmanın üstündeki kılıç sayısı bize bunu söyler)
@@ -16,7 +16,7 @@ Ve karşı saldırı olarak mouse ile kesikli çizgi içerisine denk gelmesi şa
 
  [Oyunu buradan oynayabilirsiniz](https://beyzzk.github.io/Dice-Catcher/) 
 
- # Oyunu oluştururken ilham alınan oyun
+ # Oyunu Oluştururken İlham Alınan Oyun
  [İlham alınan oyuna buradan ulaşabilirsiniz](https://kultisti.itch.io/dice-catcher) 
 
  # Kullanılan assetler
