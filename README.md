@@ -18,6 +18,7 @@ Ve karşı saldırı olarak mouse ile kesikli çizgi içerisine denk gelmesi şa
  [Oyunu buradan oynayabilirsiniz](https://beyzzk.github.io/Dice-Catcher/) 
 
  # Oyunu Oluştururken İlham Alınan Oyun
+ Oyunun ismi: Dice Catcher  
  [İlham alınan oyuna buradan ulaşabilirsiniz](https://kultisti.itch.io/dice-catcher) 
 
  # Kullanılan assetler
