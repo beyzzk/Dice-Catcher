@@ -15,7 +15,7 @@ Ve karşı saldırı olarak mouse ile kesikli çizgi içerisine denk gelmesi şa
  -Kılıç zarı round sonunda yapacağımız saldırıya +1 ekler.  
  -Tuzak zarı ise düşmanın yapacağı saldırıya +1 ekler o yüzden bunu toplamamalıyız,ancak bu zarları sağ tık ile kalp zarına çevirip toplayabiliriz!  
 
- [Oyunu buradan oynayabilirsiniz](https://beyzzk.github.io/Dice-Catcher/)  
+ Oyunu buradan oynayabilirsiniz : https://beyzzk.github.io/Dice-Catcher/  
  [Oyunun oynanış videosunu buradan izleyebilirsiniz](https://www.youtube.com/watch?v=KzGvNJGUDA0) 
 
 
