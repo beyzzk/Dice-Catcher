@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Catcher</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!--Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Bilgi kutusu -->
+      <div id="info">
+        <p>Oynamak için "Start" butonuna tıkla.</p>
+        <p>Hedef: Düşman seni öldürmeden önce onu öldürmek.</p>
+        <p>Düşen kutuları mouse ile topla!</p>
+        <p>Kılıç kutularıyla saldırı sayını arttırırsın.</p>
+        <p>Kalp kutularıyla düşmana -1 hasar verirsin.</p>
+        <p>
+          Trap(mor) kutularında ise dikkatli olmalısın,toplarsan düşmanın
+          saldırı hakkını arttırırsın.
+        </p>
+        <p>Ama bu kutuları sağ tık ile kalp kutusuna dönüştürebilirsin!</p>
+        <p>
+          Her round başında düşmanın saldırı sayısı üzerinde görünür,<br />10 sn
+          boyunca toplayabildiğini toplarsın ve sonra iki tarafta kozunu oynar.
+        </p>
+      </div>
+      <!-- Oyuncu ve düşman silah ve can gösterimleri -->
+      <div class="health-bars">
+        <div class="status-container">
+          <div id="playerWeapons" class="weapons"></div>
+          <div id="playerHealth" class="hearts"></div>
+        </div>
+        <div class="status-container">
+          <div id="enemyWeapons" class="weapons"></div>
+          <div id="enemyHealth" class="hearts"></div>
+        </div>
+      </div>
+      <!-- Oyuncu ve düşman görselleri -->
+      <div class="character">
+        <canvas id="characterCanvas" width="500" height="0"></canvas>
+        <div class="players">
+          <img src="img/oyuncu.png" alt="oyuncu" />
+          <img src="img/düsman.png" alt="düsman" />
+        </div>
+      </div>
+      <!-- Oyunun çalıştığı canvas -->
+      <canvas
+        id="myCanvas"
+        width="500"
+        height="300"
+        style="border: 10px solid #000"
+      >
+      </canvas>
+    </div>
+    <!-- Kullanılan görsel ve sesler -->
+    <img id="imgArrow" src="img/sword.webp" style="display: none" />
+    <img id="imgHeart" src="img/heart.png" style="display: none" />
+    <img
+      id="imgTrap"
+      src="img/trap.png"
+      style="display: none"
+      width="100"
+      height="100"
+    />
+    <audio id="collectSound" src="effect.mp3" preload="auto"></audio>
+    <audio id="bgMusic" src="background_music.mp3"  loop></audio>
+    <!-- JS -->
+    <script src="main.js"></script>
+  </body>
+</html>
